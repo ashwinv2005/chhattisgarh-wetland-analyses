@@ -271,11 +271,11 @@ library(extrafont)
 
 ggp = ggplot(data = finaldata %>% filter(metric %in% c("total","shorebirds","ducks",
                                                        "rallids","large waterbirds")), 
-             aes(x = AREA, y = richness, col = metric)) +
+             aes(x = AREA, y = count, col = metric)) +
   geom_point() +
   theme_bw() +
   xlab("Area of Wetland") +
-  ylab("Species Richness")
+  ylab("Count")
 
 ggp +
   theme(axis.title.x = element_text(size = 16), axis.text.x = element_text(size = 12),
