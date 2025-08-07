@@ -38,14 +38,6 @@ rsconnect/
 
 # raw data files
 /*.txt
-/*.gif
-/*.jpeg
-/*.tiff
-/*.tif
-/*.png
-/*.svg
-/*.xlsx
-/*.pdf
 
 # random files
 /*.ini
@@ -55,13 +47,3 @@ rsconnect/
 
 # RStudio project files
 /*.Rproj
-
-# all shapefile related files
-#/*.dbf
-#/*.sbn
-#/*.sbx
-#/*.shp
-#/*.shp.xml
-#/*.shx
-#/*.cpg
-#/*.prj
